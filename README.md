@@ -1,106 +1,71 @@
 <div align="center">
 
-# 🌳 BrierAinz
+<img src="./assets/banner.svg" width="100%" alt="BrierAinz — local-first systems, AI agents and creative infrastructure">
 
-> *"Del caos del vacío, Yggdrasil crece con raíces profundas y ramas que tocan todos los cielos."*
+<br>
 
-### Local-First AI Engineer · Python Architect · Norse Mythology Enthusiast
+[![Website](https://img.shields.io/badge/WEB-brierstudios.com-D5B96D?style=flat-square)](https://brierstudios.com)
+[![Focus](https://img.shields.io/badge/FOCUS-local--first_AI-6FAFC1?style=flat-square)](https://github.com/BrierAinz?tab=repositories)
+[![Open source](https://img.shields.io/badge/OPEN_SOURCE-contributions-8FD8E8?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3ABrierAinz)
+[![Location](https://img.shields.io/badge/BASE-CDMX-5D6975?style=flat-square)](https://github.com/BrierAinz)
 
----
+**Local-first AI engineer building agents, terminal tooling, and creative infrastructure.**
 
 </div>
 
-```python
-class BrierAinz:
-    """AI should run on YOUR hardware, not someone else's cloud."""
+---
 
-    def __init__(self):
-        self.location = "CDMX, Mexico"
-        self.languages = ["Python", "TypeScript", "JavaScript", "Rust", "Go", "SQL"]
-        self.focus = "Local-first AI agents & ecosystems"
-        self.current_project = "Yggdrasil"
+## ᛉ About
 
-    def get_stack(self):
-        return {
-            "backend": ["FastAPI", "httpx", "aiosqlite", "python-telegram-bot", "SQLite"],
-            "frontend": ["React", "TypeScript", "Vite", "TailwindCSS", "HTMX", "Alpine.js"],
-            "ai": ["ComfyUI", "sentence-transformers", "RAG", "LoRA training"],
-            "systems": ["Rust/WASM", "Go", "Docker", "GitHub Actions"],
-            "tools": ["Git", "Blender MCP", "Textual TUI", "Cyclopts", "Rich"],
-        }
+I design software that stays close to its operator: inspectable, composable, and able to run on hardware you control. My work sits between AI agent architecture, developer experience, automation, and generative tooling.
+
+```text
+systems        local-first agents · orchestration · memory · RAG
+interfaces     terminal IDEs · Textual TUIs · React dashboards
+infrastructure Python · FastAPI · SQLite · Docker · GitHub Actions
+creative       ComfyUI pipelines · Blender tooling · media automation
 ```
 
----
+## ᚱ Selected work
 
-### 🌳 Current Project: [Yggdrasil](https://github.com/BrierAinz/Yggdrasil)
+| Project | Role | Description |
+|---|---|---|
+| [**Lilith CLI**](https://github.com/BrierAinz/lilith-cli) | Creator · maintainer | A Norse-themed terminal IDE and AI agent interface with a Textual workspace, orchestration, skills, and vector memory. |
+| [**Hermes Agent**](https://github.com/BrierAinz/hermes-agent) | Fork · upstream contributor | A working fork of [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), used for native Windows fixes and upstream engineering. |
+| [**BrierStudios.com**](https://brierstudios.com) | Designer · engineer | The public front door for my dark-fantasy AI and creative-technology work. |
 
-A personal project ecosystem organized under the **Norse Nine Realms** metaphor.
-At its core is **Lilith** — a local-first AI agent with vector memory,
-sub-agent delegation, task scheduling, RAG pipeline, and Telegram control.
+[View my upstream pull requests →](https://github.com/pulls?q=is%3Apr+author%3ABrierAinz)
 
-[![Yggdrasil](https://img.shields.io/badge/🌳_Yggdrasil-Ecosystem-F59E0B?style=for-the-badge)](https://github.com/BrierAinz/Yggdrasil)
-[![Website](https://img.shields.io/badge/🌐_Website-Live-22D3EE?style=for-the-badge)](https://brierainz.github.io/Yggdrasil/)
-[![Release](https://img.shields.io/badge/📦_v5.0-Growth_Release-8B5CF6?style=for-the-badge)](https://github.com/BrierAinz/Yggdrasil/releases/tag/v5.0.0)
+## ᛏ Current focus
 
----
+- Building a terminal-first coding environment around Lilith.
+- Improving native Windows reliability for open-source agent tooling.
+- Designing durable memory, retrieval, and delegation systems.
+- Connecting AI workflows with practical creative infrastructure.
 
-### The Nine Realms
+## ᚠ Working stack
 
-| | Realm | Purpose |
-|---|-------|---------|
-| 🏰 | [Asgard](https://github.com/BrierAinz/Yggdrasil/tree/main/Asgard) | Core Technology — Lilith agents, Gateway, Memory, Providers |
-| 🤖 | [Vanaheim](https://github.com/BrierAinz/Yggdrasil/tree/main/Vanaheim) | AI Agents — Telegram Bot, Agent Framework, VanirAgent |
-| ✨ | [Alfheim](https://github.com/BrierAinz/Yggdrasil/tree/main/Alfheim) | UI Prototypes — YggdrasilStudio, Forge, Dashboard, TUI |
-| 📚 | [Svartalfheim](https://github.com/BrierAinz/Yggdrasil/tree/main/Svartalfheim) | Knowledge Base — Docs, Plans, ADRs |
-| 🔥 | [Muspelheim](https://github.com/BrierAinz/Yggdrasil/tree/main/Muspelheim) | Active Development — AutoSub, ForgeMaster, Eir LoRA |
-| ❄️ | [Niflheim](https://github.com/BrierAinz/Yggdrasil/tree/main/Niflheim) | Resources — Datasets, Models, Assets |
-| 🌍 | [Midgard](https://github.com/BrierAinz/Yggdrasil/tree/main/Midgard) | Personal Apps — FinTracker, HabitForge, RecipeAlchemist |
-| 🐉 | [Jotunheim](https://github.com/BrierAinz/Yggdrasil/tree/main/Jotunheim) | Massive Projects — Long-term builds |
-| ☠️ | [Helheim](https://github.com/BrierAinz/Yggdrasil/tree/main/Helheim) | Graveyard — Archived projects |
+<p>
+<img src="https://img.shields.io/badge/Python-111820?style=flat-square&logo=python&logoColor=8FD8E8" alt="Python">
+<img src="https://img.shields.io/badge/FastAPI-111820?style=flat-square&logo=fastapi&logoColor=8FD8E8" alt="FastAPI">
+<img src="https://img.shields.io/badge/TypeScript-111820?style=flat-square&logo=typescript&logoColor=8FD8E8" alt="TypeScript">
+<img src="https://img.shields.io/badge/React-111820?style=flat-square&logo=react&logoColor=8FD8E8" alt="React">
+<img src="https://img.shields.io/badge/Rust-111820?style=flat-square&logo=rust&logoColor=D5B96D" alt="Rust">
+<img src="https://img.shields.io/badge/Go-111820?style=flat-square&logo=go&logoColor=8FD8E8" alt="Go">
+<img src="https://img.shields.io/badge/SQLite-111820?style=flat-square&logo=sqlite&logoColor=8FD8E8" alt="SQLite">
+<img src="https://img.shields.io/badge/Docker-111820?style=flat-square&logo=docker&logoColor=8FD8E8" alt="Docker">
+<img src="https://img.shields.io/badge/GitHub_Actions-111820?style=flat-square&logo=githubactions&logoColor=D5B96D" alt="GitHub Actions">
+<img src="https://img.shields.io/badge/ComfyUI-111820?style=flat-square&logoColor=8FD8E8" alt="ComfyUI">
+</p>
 
----
+## ᛇ Engineering principles
 
-### Highlight Projects
-
-| Project | Realm | Description |
-|---------|-------|-------------|
-| [**Lilith**](https://github.com/BrierAinz/Yggdrasil/tree/main/Asgard/Lilith) | Asgard | Local-first AI agent: vector memory, sub-agent delegation, Telegram control |
-| [**YggdrasilStudio**](https://github.com/BrierAinz/Yggdrasil/tree/main/Alfheim/YggdrasilStudio) | Alfheim | AI image/video generation studio — ComfyUI bridge, Nordic dark fantasy UI, Rust/WASM processor |
-| [**YggdrasilForge**](https://github.com/BrierAinz/Yggdrasil/tree/main/Alfheim/YggdrasilForge) | Alfheim | 3D asset studio — Blender MCP, Sketchfab, PolyHaven, Hunyuan3D, Hyper3D |
-| [**ForgeMaster**](https://github.com/BrierAinz/Yggdrasil/tree/main/Muspelheim/ForgeMaster) | Muspelheim | LLM model/VRAM/disk resource manager — 238 tests, mypy clean |
-| [**TerminalDashboard**](https://github.com/BrierAinz/Yggdrasil/tree/main/Alfheim/TerminalDashboard) | Alfheim | Textual TUI for monitoring all 9 realms — 188 tests, 81% coverage |
-| [**AutoSub**](https://github.com/BrierAinz/Yggdrasil/tree/main/Muspelheim/AutoSub) | Muspelheim | Automatic subtitle generator with Whisper |
-| [**Eir**](https://github.com/BrierAinz/Yggdrasil/tree/main/Muspelheim/AI-Influencer) | Muspelheim | AI influencer LoRA training pipeline (ComfyUI + SDXL) |
-
----
-
-### Technologies
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)
+> Local-first by default. Clear boundaries over accidental complexity. Evidence before confidence. Tools should amplify their operator without becoming opaque.
 
 ---
 
 <div align="center">
 
-📊 **Stats**
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=BrierAinz&show_icons=true&theme=dark&hide_border=true&bg_color=0B0F19&text_color=E5E7EB&icon_color=F59E0B&title_color=F59E0B)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BrierAinz&layout=compact&theme=dark&hide_border=true&bg_color=0B0F19&text_color=E5E7EB&title_color=F59E0B&langs_count=8)
-
----
-
-💫 *"Yggdrasil — where every branch is a project, every root a foundation."*
+<sub>ᚠ ᚢ ᚦ ᚨ ᚱ ᚲ · Roots before branches. Systems before spectacle.</sub>
 
 </div>
