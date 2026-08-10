@@ -5,11 +5,12 @@
 <br>
 
 [![Website](https://img.shields.io/badge/WEB-brierstudios.com-D5B96D?style=flat-square)](https://brierstudios.com)
+[![Studio](https://img.shields.io/badge/STUDIO-BrierStudios-8FD8E8?style=flat-square)](https://github.com/BrierStudios)
 [![Focus](https://img.shields.io/badge/FOCUS-local--first_AI-6FAFC1?style=flat-square)](https://github.com/BrierAinz?tab=repositories)
 [![Open source](https://img.shields.io/badge/OPEN_SOURCE-contributions-8FD8E8?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3ABrierAinz)
 [![Location](https://img.shields.io/badge/BASE-CDMX-5D6975?style=flat-square)](https://github.com/BrierAinz)
 
-**Local-first AI engineer building agents, terminal tooling, and creative infrastructure.**
+**Local-first AI engineer building agents, terminal tooling, creative infrastructure, and systems that remain inspectable by their operator.**
 
 </div>
 
@@ -17,7 +18,7 @@
 
 ## ᛉ About
 
-I design software that stays close to its operator: inspectable, composable, and able to run on hardware you control. My work sits between AI agent architecture, developer experience, automation, and generative tooling.
+I build software around a simple constraint: the operator should be able to understand where state lives, what an agent is allowed to do, and how to recover when something fails. My work sits between AI-agent architecture, developer experience, automation, persistent memory, and generative tooling.
 
 ```text
 systems        local-first agents · orchestration · memory · RAG
@@ -26,22 +27,30 @@ infrastructure Python · FastAPI · SQLite · Docker · GitHub Actions
 creative       ComfyUI pipelines · Blender tooling · media automation
 ```
 
-## ᚱ Selected work
+## ᛝ Yggdrasil
+
+<img src="./assets/yggdrasil-ecosystem.svg" width="100%" alt="Yggdrasil nine-realm software ecosystem">
+
+**Yggdrasil** is the architecture I use to keep AI, tooling, interfaces, memory, creative systems, and archives in explicit domains instead of collapsing everything into one monolith. The operational core remains private by design; public-facing work is published separately when it is useful outside the local ecosystem.
+
+The wider studio identity lives at [**BrierStudios**](https://github.com/BrierStudios) and [**brierstudios.com**](https://brierstudios.com).
+
+## ᚱ Public work
 
 | Project | Role | Description |
 |---|---|---|
-| [**Lilith CLI**](https://github.com/BrierAinz/lilith-cli) | Creator · maintainer | A Norse-themed terminal IDE and AI agent interface with a Textual workspace, orchestration, skills, and vector memory. |
-| [**Hermes Agent**](https://github.com/BrierAinz/hermes-agent) | Fork · upstream contributor | A working fork of [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), used for native Windows fixes and upstream engineering. |
-| [**BrierStudios.com**](https://brierstudios.com) | Designer · engineer | The public front door for my dark-fantasy AI and creative-technology work. |
+| [**Lilith CLI**](https://github.com/BrierAinz/lilith-cli) | Creator · maintainer | Norse-themed terminal IDE and AI-agent interface with a Textual workspace, orchestration, skills, and vector memory. |
+| [**Hermes Agent**](https://github.com/BrierAinz/hermes-agent) | Fork · upstream contributor | Working fork of [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), used for native Windows fixes and upstream engineering. |
+| [**BrierStudios.com**](https://brierstudios.com) | Designer · engineer | Public front door for dark-fantasy AI, software, and creative-technology work. |
 
 [View my upstream pull requests →](https://github.com/pulls?q=is%3Apr+author%3ABrierAinz)
 
 ## ᛏ Current focus
 
-- Building a terminal-first coding environment around Lilith.
+- Building terminal-first AI workflows around Lilith.
 - Improving native Windows reliability for open-source agent tooling.
-- Designing durable memory, retrieval, and delegation systems.
-- Connecting AI workflows with practical creative infrastructure.
+- Designing durable memory, retrieval, delegation, and recovery boundaries.
+- Connecting local AI workflows with practical creative infrastructure.
 
 ## ᚠ Working stack
 
@@ -60,11 +69,13 @@ creative       ComfyUI pipelines · Blender tooling · media automation
 
 ## ᛇ Engineering principles
 
-> Local-first by default. Clear boundaries over accidental complexity. Evidence before confidence. Tools should amplify their operator without becoming opaque.
+> Local-first by default. Clear boundaries over accidental complexity. Evidence before confidence. Recoverability before cleverness. Tools should amplify their operator without becoming opaque.
 
 ---
 
 <div align="center">
+
+<img src="./assets/brierstudios-strip.svg" width="100%" alt="BrierStudios — Where Ancient Meets Digital">
 
 <sub>ᚠ ᚢ ᚦ ᚨ ᚱ ᚲ · Roots before branches. Systems before spectacle.</sub>
 
