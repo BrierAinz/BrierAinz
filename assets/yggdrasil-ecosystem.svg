@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Yggdrasil — Nine Realms Ecosystem</title>
+  <desc id="desc">Visual map of the nine Yggdrasil software realms and their responsibilities.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06090e"/>
+      <stop offset="0.55" stop-color="#0a1119"/>
+      <stop offset="1" stop-color="#0e1822"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8fd8e8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#8fd8e8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect width="1200" height="520" rx="18" fill="url(#bg)"/>
+  <circle cx="600" cy="265" r="165" fill="url(#core)"/>
+  <g stroke="#8fd8e8" stroke-opacity="0.20" stroke-width="1.4" fill="none">
+    <path d="M600 235L600 96M600 235L930 116M600 235L986 260M600 235L914 414M600 235L676 452M600 235L330 426M600 235L206 316M600 235L258 138M600 235L466 64"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="600" y="38" text-anchor="middle" fill="#8fd8e8" font-size="13" font-weight="700" letter-spacing="4">ᛝ  YGGDRASIL / NINE REALMS</text>
+    <g>
+      <circle cx="600" cy="265" r="74" fill="#0d1821" stroke="#d5b96d" stroke-opacity="0.8" stroke-width="2"/>
+      <path d="M600 309V217M600 234L572 211M600 234L628 211M600 252L560 229M600 252L640 229M600 270L553 254M600 270L647 254" fill="none" stroke="#8fd8e8" stroke-width="2" stroke-linecap="round"/>
+      <text x="600" y="334" text-anchor="middle" fill="#f2f5f7" font-size="16" font-weight="700" letter-spacing="3">YGGDRASIL</text>
+      <text x="600" y="354" text-anchor="middle" fill="#a8b7c2" font-size="10" letter-spacing="2">ORCHESTRATION / WORLD TREE</text>
+    </g>
+    <g>
+      <rect x="486" y="66" width="228" height="62" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.32"/>
+      <text x="600" y="91" text-anchor="middle" fill="#f2f5f7" font-size="15" font-weight="700">ASGARD</text><text x="600" y="111" text-anchor="middle" fill="#8fd8e8" font-size="10">CORE / LILITH INFRASTRUCTURE</text>
+    </g>
+    <g>
+      <rect x="820" y="84" width="236" height="62" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.32"/>
+      <text x="938" y="109" text-anchor="middle" fill="#f2f5f7" font-size="15" font-weight="700">VANAHEIM</text><text x="938" y="129" text-anchor="middle" fill="#8fd8e8" font-size="10">AGENTS / FRAMEWORKS</text>
+    </g>
+    <g>
+      <rect x="896" y="230" width="228" height="62" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.32"/>
+      <text x="1010" y="255" text-anchor="middle" fill="#f2f5f7" font-size="15" font-weight="700">ALFHEIM</text><text x="1010" y="275" text-anchor="middle" fill="#8fd8e8" font-size="10">UI / VISUAL INTERFACES</text>
+    </g>
+    <g>
+      <rect x="790" y="382" width="250" height="62" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.32"/>
+      <text x="915" y="407" text-anchor="middle" fill="#f2f5f7" font-size="15" font-weight="700">MUSPELHEIM</text><text x="915" y="427" text-anchor="middle" fill="#8fd8e8" font-size="10">ACTIVE DEVELOPMENT / FORGE</text>
+    </g>
+    <g>
+      <rect x="558" y="432" width="236" height="62" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.32"/>
+      <text x="676" y="457" text-anchor="middle" fill="#f2f5f7" font-size="15" font-weight="700">NIFLHEIM</text><text x="676" y="477" text-anchor="middle" fill="#8fd8e8" font-size="10">ASSETS / MODELS / DATASETS</text>
+    </g>
+    <g>
+      <rect x="190" y="394" width="276" height="62" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.32"/>
+      <text x="328" y="419" text-anchor="middle" fill="#f2f5f7" font-size="15" font-weight="700">SVARTALFHEIM</text><text x="328" y="439" text-anchor="middle" fill="#8fd8e8" font-size="10">DOCS / KNOWLEDGE / TOOLING</text>
+    </g>
+    <g>
+      <rect x="72" y="286" width="258" height="62" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.32"/>
+      <text x="201" y="311" text-anchor="middle" fill="#f2f5f7" font-size="15" font-weight="700">HELHEIM</text><text x="201" y="331" text-anchor="middle" fill="#8fd8e8" font-size="10">READ-ONLY ARCHIVE</text>
+    </g>
+    <g>
+      <rect x="132" y="106" width="250" height="62" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.32"/>
+      <text x="257" y="131" text-anchor="middle" fill="#f2f5f7" font-size="15" font-weight="700">JOTUNHEIM</text><text x="257" y="151" text-anchor="middle" fill="#8fd8e8" font-size="10">LARGE-SCALE PROJECTS</text>
+    </g>
+    <g>
+      <rect x="346" y="34" width="240" height="62" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.32"/>
+      <text x="466" y="59" text-anchor="middle" fill="#f2f5f7" font-size="15" font-weight="700">MIDGARD</text><text x="466" y="79" text-anchor="middle" fill="#8fd8e8" font-size="10">PERSONAL TOOLS / EXPERIMENTS</text>
+    </g>
+    <text x="600" y="510" text-anchor="middle" fill="#d5b96d" fill-opacity="0.72" font-size="10" font-weight="600" letter-spacing="3">CLEAR BOUNDARIES · LOCAL-FIRST · AUDITABLE SYSTEMS</text>
+  </g>
+</svg>
