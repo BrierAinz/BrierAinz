@@ -5,7 +5,6 @@
 <br>
 
 [![Website](https://img.shields.io/badge/WEB-brierstudios.com-D5B96D?style=flat-square)](https://brierstudios.com)
-[![Studio](https://img.shields.io/badge/STUDIO-BrierStudios-8FD8E8?style=flat-square)](https://github.com/BrierStudios)
 [![Focus](https://img.shields.io/badge/FOCUS-local--first_AI-6FAFC1?style=flat-square)](https://github.com/BrierAinz?tab=repositories)
 [![Open source](https://img.shields.io/badge/OPEN_SOURCE-contributions-8FD8E8?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3ABrierAinz)
 [![Location](https://img.shields.io/badge/BASE-CDMX-5D6975?style=flat-square)](https://github.com/BrierAinz)
@@ -33,7 +32,7 @@ creative       ComfyUI pipelines · Blender tooling · media automation
 
 **Yggdrasil** is the architecture I use to keep AI, tooling, interfaces, memory, creative systems, and archives in explicit domains instead of collapsing everything into one monolith. The operational core remains private by design; public-facing work is published separately when it is useful outside the local ecosystem.
 
-The wider studio identity lives at [**BrierStudios**](https://github.com/BrierStudios) and [**brierstudios.com**](https://brierstudios.com).
+**BrierStudios** is the studio identity behind this work. Its public home is [**brierstudios.com**](https://brierstudios.com); GitHub ownership is centralized under this `BrierAinz` account.
 
 ## ᚱ Public work
 
