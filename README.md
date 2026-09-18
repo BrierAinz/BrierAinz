@@ -8,6 +8,8 @@
 [![Focus](https://img.shields.io/badge/FOCUS-local--first_AI-6FAFC1?style=flat-square)](https://github.com/BrierAinz?tab=repositories)
 [![Open source](https://img.shields.io/badge/OPEN_SOURCE-contributions-8FD8E8?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3ABrierAinz)
 [![Location](https://img.shields.io/badge/BASE-CDMX-5D6975?style=flat-square)](https://github.com/BrierAinz)
+[![Lilith](https://img.shields.io/badge/LILITH-v4.6.0-D5B96D?style=flat-square)](https://github.com/BrierAinz/lilith-cli/releases/tag/v4.6.0)
+[![Lilith CI](https://img.shields.io/github/actions/workflow/status/BrierAinz/lilith-cli/ci.yml?branch=main&style=flat-square&label=LILITH%20CI)](https://github.com/BrierAinz/lilith-cli/actions)
 
 **Local-first AI engineer building agents, terminal tooling, creative infrastructure, and systems that remain inspectable by their operator.**
 
@@ -38,7 +40,7 @@ creative       ComfyUI pipelines · Blender tooling · media automation
 
 | Project | Role | Description |
 |---|---|---|
-| [**Lilith CLI**](https://github.com/BrierAinz/lilith-cli) | Creator · maintainer | Norse-themed terminal IDE and AI-agent interface with a Textual workspace, orchestration, skills, and vector memory. |
+| [**Lilith CLI**](https://github.com/BrierAinz/lilith-cli) | Creator · maintainer | Released as **v4.6.0**: terminal-first AI workspace with durable missions, capability-scoped tooling, memory, orchestration, and a Textual IDE. |
 | [**Hermes Agent**](https://github.com/BrierAinz/hermes-agent) | Fork · upstream contributor | Working fork of [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), used for native Windows fixes and upstream engineering. |
 | [**BrierStudios.com**](https://brierstudios.com) | Designer · engineer | Public front door for dark-fantasy AI, software, and creative-technology work. |
 
