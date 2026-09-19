@@ -1,1 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc"><title id="title">BrierAinz social preview</title><desc id="desc">Social preview source artwork for the BrierAinz GitHub identity.</desc><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05080d"/><stop offset=".55" stop-color="#0a1119"/><stop offset="1" stop-color="#111b25"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8fd8e8" stroke-opacity=".055"/></pattern><radialGradient id="g"><stop stop-color="#8fd8e8" stop-opacity=".2"/><stop offset="1" stop-color="#8fd8e8" stop-opacity="0"/></radialGradient></defs><rect width="1280" height="640" fill="url(#bg)"/><rect width="1280" height="640" fill="url(#grid)"/><circle cx="1035" cy="320" r="330" fill="url(#g)"/><g fill="none" stroke-linecap="round"><path d="M1035 510V145" stroke="#d5b96d" stroke-width="6"/><path d="M1035 198l-105-82M1035 198l105-82M1035 282l-148-83M1035 282l148-83M1035 368l-172-55M1035 368l172-55" stroke="#8fd8e8" stroke-width="4" stroke-opacity=".72"/><path d="M1035 434c-55 45-105 70-162 86M1035 434c55 45 105 70 162 86" stroke="#8fd8e8" stroke-width="3" stroke-opacity=".55"/></g><g font-family="Segoe UI,Arial,sans-serif"><text x="86" y="150" fill="#8fd8e8" font-size="20" font-weight="700" letter-spacing="7">ᛉ  LOCAL-FIRST SYSTEMS</text><text x="78" y="320" fill="#f3f6f8" font-size="96" font-weight="700" letter-spacing="14">BRIERAINZ</text><text x="86" y="400" fill="#a8b7c2" font-size="23" letter-spacing="5">AI AGENTS · DEVELOPER TOOLS · CREATIVE INFRASTRUCTURE</text><text x="86" y="462" fill="#d5b96d" font-size="17" letter-spacing="4">BRIERSTUDIOS · YGGDRASIL · WHERE ANCIENT MEETS DIGITAL</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">BrierAinz social preview</title>
+  <desc id="desc">Social preview source artwork for the BrierAinz GitHub identity.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#05080d"/>
+      <stop offset=".55" stop-color="#0a1119"/>
+      <stop offset="1" stop-color="#111b25"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8fd8e8" stroke-opacity=".055"/>
+    </pattern>
+    <radialGradient id="g" cx="78%" cy="50%" r="54%">
+      <stop stop-color="#8fd8e8" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#8fd8e8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <circle cx="1035" cy="320" r="330" fill="url(#g)"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M1035 510V145" stroke="#d5b96d" stroke-width="6"/>
+    <path d="M1035 198l-105-82M1035 198l105-82M1035 282l-148-83M1035 282l148-83M1035 368l-172-55M1035 368l172-55" stroke="#8fd8e8" stroke-width="4" stroke-opacity=".72"/>
+    <path d="M1035 434c-55 45-105 70-162 86M1035 434c55 45 105 70 162 86" stroke="#8fd8e8" stroke-width="3" stroke-opacity=".55"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="86" y="150" fill="#8fd8e8" font-size="20" font-weight="700" letter-spacing="7">LOCAL-FIRST SYSTEMS</text>
+    <text x="78" y="320" fill="#f3f6f8" font-size="96" font-weight="700" letter-spacing="14">BRIERAINZ</text>
+    <text x="86" y="400" fill="#a8b7c2" font-size="23" letter-spacing="5">AI AGENTS / DEVELOPER TOOLS / CREATIVE INFRASTRUCTURE</text>
+    <text x="86" y="462" fill="#d5b96d" font-size="17" letter-spacing="4">BRIERSTUDIOS / YGGDRASIL / WHERE ANCIENT MEETS DIGITAL</text>
+  </g>
+</svg>
