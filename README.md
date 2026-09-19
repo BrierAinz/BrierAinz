@@ -1,59 +1,109 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="BrierAinz — local-first systems, AI agents and creative infrastructure">
+<img src="./assets/banner.svg" width="100%" alt="BrierAinz - local-first AI systems, agents, developer tools and creative infrastructure">
 
 <br>
 
 [![Website](https://img.shields.io/badge/WEB-brierstudios.com-D5B96D?style=flat-square)](https://brierstudios.com)
 [![Focus](https://img.shields.io/badge/FOCUS-local--first_AI-6FAFC1?style=flat-square)](https://github.com/BrierAinz?tab=repositories)
-[![Open source](https://img.shields.io/badge/OPEN_SOURCE-contributions-8FD8E8?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3ABrierAinz)
-[![Location](https://img.shields.io/badge/BASE-CDMX-5D6975?style=flat-square)](https://github.com/BrierAinz)
+[![Open source](https://img.shields.io/badge/OPEN_SOURCE-upstream_work-8FD8E8?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3ABrierAinz)
+[![Base](https://img.shields.io/badge/BASE-CDMX-5D6975?style=flat-square)](https://github.com/BrierAinz)
 [![Lilith](https://img.shields.io/badge/LILITH-v4.6.0-D5B96D?style=flat-square)](https://github.com/BrierAinz/lilith-cli/releases/tag/v4.6.0)
 [![Lilith CI](https://img.shields.io/github/actions/workflow/status/BrierAinz/lilith-cli/ci.yml?branch=main&style=flat-square&label=LILITH%20CI)](https://github.com/BrierAinz/lilith-cli/actions)
 
-**Local-first AI engineer building agents, terminal tooling, creative infrastructure, and systems that remain inspectable by their operator.**
+<h3>Local-first AI systems, terminal tooling, durable memory and creative infrastructure.</h3>
+
+I build agentic software that stays inspectable by its operator: clear state, explicit permissions, practical recovery paths, and tooling that can be understood after the magic wears off.
 
 </div>
 
 ---
 
-## ᛉ About
+<table>
+<tr>
+<td width="50%" valign="top">
 
-I build software around a simple constraint: the operator should be able to understand where state lives, what an agent is allowed to do, and how to recover when something fails. My work sits between AI-agent architecture, developer experience, automation, persistent memory, and generative tooling.
+### Current Signal
+
+- Shipping **Lilith CLI** as a terminal-first AI workspace.
+- Hardening native **Windows** paths for open-source agent tooling.
+- Designing durable memory, retrieval, delegation and rollback boundaries.
+- Connecting local AI systems with creative pipelines and studio infrastructure.
+
+</td>
+<td width="50%" valign="top">
+
+### Operator Contract
 
 ```text
-systems        local-first agents · orchestration · memory · RAG
-interfaces     terminal IDEs · Textual TUIs · React dashboards
-infrastructure Python · FastAPI · SQLite · Docker · GitHub Actions
-creative       ComfyUI pipelines · Blender tooling · media automation
+state         visible before clever
+permissions   scoped before powerful
+memory        recoverable before automatic
+agents        useful before autonomous
+interfaces    fast before ornamental
 ```
 
-## ᛝ Yggdrasil
+</td>
+</tr>
+</table>
+
+<img src="./assets/operator-map.svg" width="100%" alt="BrierAinz operating map: agents, memory, tools, interfaces and recovery">
+
+## Workbench
+
+| System | Role | What it is for |
+|---|---:|---|
+| [Lilith CLI](https://github.com/BrierAinz/lilith-cli) | creator / maintainer | Terminal-first AI workspace with durable missions, capability-scoped tooling, memory, orchestration and a Textual IDE. |
+| [Hermes Agent](https://github.com/BrierAinz/hermes-agent) | fork / upstream contributor | Working fork of [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), focused on native Windows reliability and upstream fixes. |
+| [BrierStudios.com](https://brierstudios.com) | designer / engineer | Public front door for dark-fantasy AI, software and creative-technology work. |
+| [Upstream PRs](https://github.com/pulls?q=is%3Apr+author%3ABrierAinz) | contributor | Compatibility, testing and reliability patches across agent, memory and developer tooling projects. |
+
+## Yggdrasil
 
 <img src="./assets/yggdrasil-ecosystem.svg" width="100%" alt="Yggdrasil nine-realm software ecosystem">
 
-**Yggdrasil** is the architecture I use to keep AI, tooling, interfaces, memory, creative systems, and archives in explicit domains instead of collapsing everything into one monolith. The operational core remains private by design; public-facing work is published separately when it is useful outside the local ecosystem.
+**Yggdrasil** is the architecture I use to keep AI, tooling, interfaces, memory, creative systems and archives in explicit domains instead of letting everything collapse into one shapeless monolith. The operational core stays private by design; public-facing pieces are published when they are useful outside the local ecosystem.
 
-**BrierStudios** is the studio identity behind this work. Its public home is [**brierstudios.com**](https://brierstudios.com); GitHub ownership is centralized under this `BrierAinz` account.
+**BrierStudios** is the studio identity behind the work. Its public home is [brierstudios.com](https://brierstudios.com), while GitHub ownership is centralized here under `BrierAinz`.
 
-## ᚱ Public work
+## Build Surface
 
-| Project | Role | Description |
-|---|---|---|
-| [**Lilith CLI**](https://github.com/BrierAinz/lilith-cli) | Creator · maintainer | Released as **v4.6.0**: terminal-first AI workspace with durable missions, capability-scoped tooling, memory, orchestration, and a Textual IDE. |
-| [**Hermes Agent**](https://github.com/BrierAinz/hermes-agent) | Fork · upstream contributor | Working fork of [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), used for native Windows fixes and upstream engineering. |
-| [**BrierStudios.com**](https://brierstudios.com) | Designer · engineer | Public front door for dark-fantasy AI, software, and creative-technology work. |
+<table>
+<tr>
+<td valign="top" width="33%">
 
-[View my upstream pull requests →](https://github.com/pulls?q=is%3Apr+author%3ABrierAinz)
+### Agents
 
-## ᛏ Current focus
+- local-first orchestration
+- mission state and recovery
+- tool permissions
+- memory and retrieval
 
-- Building terminal-first AI workflows around Lilith.
-- Improving native Windows reliability for open-source agent tooling.
-- Designing durable memory, retrieval, delegation, and recovery boundaries.
-- Connecting local AI workflows with practical creative infrastructure.
+</td>
+<td valign="top" width="33%">
 
-## ᚠ Working stack
+### Interfaces
+
+- terminal IDEs
+- Textual TUIs
+- React dashboards
+- operator-facing diagnostics
+
+</td>
+<td valign="top" width="33%">
+
+### Infrastructure
+
+- Python services
+- FastAPI and SQLite
+- Docker and GitHub Actions
+- creative media automation
+
+</td>
+</tr>
+</table>
+
+## Stack
 
 <p>
 <img src="https://img.shields.io/badge/Python-111820?style=flat-square&logo=python&logoColor=8FD8E8" alt="Python">
@@ -68,16 +118,14 @@ creative       ComfyUI pipelines · Blender tooling · media automation
 <img src="https://img.shields.io/badge/ComfyUI-111820?style=flat-square&logoColor=8FD8E8" alt="ComfyUI">
 </p>
 
-## ᛇ Engineering principles
+## Principles
 
 > Local-first by default. Clear boundaries over accidental complexity. Evidence before confidence. Recoverability before cleverness. Tools should amplify their operator without becoming opaque.
 
----
-
 <div align="center">
 
-<img src="./assets/brierstudios-strip.svg" width="100%" alt="BrierStudios — Where Ancient Meets Digital">
+<img src="./assets/brierstudios-strip.svg" width="100%" alt="BrierStudios - Where Ancient Meets Digital">
 
-<sub>ᚠ ᚢ ᚦ ᚨ ᚱ ᚲ · Roots before branches. Systems before spectacle.</sub>
+<sub>Roots before branches. Systems before spectacle.</sub>
 
 </div>

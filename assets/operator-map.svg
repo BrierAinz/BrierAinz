@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">BrierAinz operating map</title>
+  <desc id="desc">A dark technical map showing operator, agents, memory, tools, interfaces and recovery loops.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05080d"/>
+      <stop offset="0.55" stop-color="#0a1119"/>
+      <stop offset="1" stop-color="#101c26"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8fd8e8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8fd8e8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#8fd8e8" stroke-opacity="0.045"/>
+    </pattern>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8fd8e8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8fd8e8" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#d5b96d" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="16" fill="url(#grid)"/>
+  <circle cx="600" cy="185" r="135" fill="url(#coreGlow)"/>
+  <path d="M64 54H1136M64 306H1136" stroke="url(#rail)" stroke-width="1"/>
+
+  <g fill="none" stroke="#8fd8e8" stroke-width="1.5" stroke-opacity="0.34">
+    <path d="M323 127C412 90 502 88 566 143"/>
+    <path d="M876 127C787 90 696 88 634 143"/>
+    <path d="M323 233C412 270 502 272 566 217"/>
+    <path d="M876 233C787 270 696 272 634 217"/>
+    <path d="M600 118V84"/>
+    <path d="M600 242V276"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" filter="url(#shadow)">
+    <g>
+      <rect x="454" y="128" width="292" height="104" rx="12" fill="#0d1821" stroke="#d5b96d" stroke-opacity="0.78"/>
+      <text x="600" y="163" text-anchor="middle" fill="#f3f6f8" font-size="20" font-weight="700" letter-spacing="3">OPERATOR</text>
+      <text x="600" y="188" text-anchor="middle" fill="#8fd8e8" font-size="11" font-weight="700" letter-spacing="2">INSPECTABLE CONTROL PLANE</text>
+      <text x="600" y="212" text-anchor="middle" fill="#a8b7c2" font-size="12">state, permissions, recovery and evidence</text>
+    </g>
+
+    <g>
+      <rect x="86" y="92" width="238" height="70" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.35"/>
+      <text x="205" y="120" text-anchor="middle" fill="#f3f6f8" font-size="15" font-weight="700">AGENTS</text>
+      <text x="205" y="142" text-anchor="middle" fill="#8fd8e8" font-size="10" letter-spacing="1.6">missions / delegation / tools</text>
+    </g>
+    <g>
+      <rect x="86" y="198" width="238" height="70" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.35"/>
+      <text x="205" y="226" text-anchor="middle" fill="#f3f6f8" font-size="15" font-weight="700">MEMORY</text>
+      <text x="205" y="248" text-anchor="middle" fill="#8fd8e8" font-size="10" letter-spacing="1.6">retrieval / recall / audit trail</text>
+    </g>
+    <g>
+      <rect x="876" y="92" width="238" height="70" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.35"/>
+      <text x="995" y="120" text-anchor="middle" fill="#f3f6f8" font-size="15" font-weight="700">TOOLS</text>
+      <text x="995" y="142" text-anchor="middle" fill="#8fd8e8" font-size="10" letter-spacing="1.6">scoped actions / terminals / APIs</text>
+    </g>
+    <g>
+      <rect x="876" y="198" width="238" height="70" rx="10" fill="#0d151d" stroke="#8fd8e8" stroke-opacity="0.35"/>
+      <text x="995" y="226" text-anchor="middle" fill="#f3f6f8" font-size="15" font-weight="700">INTERFACES</text>
+      <text x="995" y="248" text-anchor="middle" fill="#8fd8e8" font-size="10" letter-spacing="1.6">terminal IDEs / dashboards / diagnostics</text>
+    </g>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="600" y="50" text-anchor="middle" fill="#8fd8e8" font-size="12" font-weight="700" letter-spacing="4">LOCAL-FIRST AI OPERATING MAP</text>
+    <text x="600" y="318" text-anchor="middle" fill="#d5b96d" font-size="11" font-weight="700" letter-spacing="3">OBSERVE -> ACT -> RECORD -> RECOVER</text>
+  </g>
+</svg>
