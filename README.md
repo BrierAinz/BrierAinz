@@ -58,6 +58,8 @@ interfaces    fast before ornamental
 | [BrierStudios.com](https://brierstudios.com) | designer / engineer | Public front door for dark-fantasy AI, software and creative-technology work. |
 | [Upstream PRs](https://github.com/pulls?q=is%3Apr+author%3ABrierAinz) | contributor | Compatibility, testing and reliability patches across agent, memory and developer tooling projects. |
 
+See [Upstream Work](./docs/UPSTREAM.md) for the contribution themes I tend to focus on.
+
 ## Yggdrasil
 
 <img src="./assets/yggdrasil-ecosystem.svg" width="100%" alt="Yggdrasil nine-realm software ecosystem">
